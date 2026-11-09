@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support · TeamPulse for GitHub</title>
+  <link rel="icon" href="img/icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="img/icon.png" alt="">TeamPulse for GitHub</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="./">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+<main class="page">
+  <h1>Support</h1>
+  <p class="lead">Questions, problems or ideas: write to <a href="mailto:macapps.support@icloud.com">macapps.support@icloud.com</a>. Mention your macOS version and what you see.</p>
+
+  <h2>Getting started</h2>
+  <ol class="steps">
+    <li>Open TeamPulse. In the Welcome window, click <strong>Sign in with GitHub</strong>, copy the code, paste it on the GitHub page that opens and click <strong>Authorize</strong>. Or try everything first with <strong>Try with sample data</strong>.</li>
+    <li>Choose the organization to watch.</li>
+    <li>Add widgets: Control-click the desktop, choose <strong>Edit Widgets</strong>, search for <strong>TeamPulse</strong> and drag a widget onto the desktop.</li>
+    <li>For the full-desktop dashboard, click the TeamPulse icon in the menu bar and switch on <strong>Desktop dashboard</strong>.</li>
+  </ol>
+
+  <h2>"Waiting for your organization to approve TeamPulse"</h2>
+  <p>Many organizations only let approved apps read their private data. TeamPulse then shows nothing rather than wrong, empty results. On the waiting screen, click <strong>Open TeamPulse on GitHub</strong> to request access, and send an organization owner the ready-made message from <strong>Copy message for an owner</strong>. Owners approve it under Organization settings › Third-party access › OAuth app policy. TeamPulse checks every two minutes and starts on its own. A personal access token isn't affected by this approval, if you prefer that.</p>
+
+  <h2>Signing in with a personal access token</h2>
+  <p>In the Welcome window, choose <strong>Use a token</strong>. Create a classic token with the <code>repo</code>, <code>read:org</code> and <code>read:user</code> scopes. If your organization uses single sign-on, click <strong>Configure SSO</strong> next to the token on GitHub and authorize the organization.</p>
+
+  <h2>Widgets</h2>
+  <ul>
+    <li>Each widget card has a blue switch button at the top right that shows the next list. To fix a widget to one list, Control-click it and choose <strong>Edit "TeamPulse"</strong>.</li>
+    <li>Widgets update when TeamPulse refreshes, so keep it running: Settings › General › <strong>Open at login</strong>.</li>
+    <li>macOS dims desktop widgets while another app is in front; System Settings › Desktop &amp; Dock › <strong>Dim widgets on desktop</strong> controls this.</li>
+  </ul>
+
+  <h2>How often it refreshes</h2>
+  <p>Your own PRs every 3 minutes, org activity every 15 minutes, and delivery, security and CI health every hour, well within GitHub's hourly API limit. Click the refresh button to update now.</p>
+
+  <h2>Some cards say "needs org admin access"</h2>
+  <p>Self-hosted runners and outside collaborators need organization admin access, billing needs owner or billing manager access, and security alerts need the features enabled and access to them. TeamPulse shows everything else and notes what it couldn't read.</p>
+
+  <h2>Signing out</h2>
+  <p>Settings › Account › <strong>Sign out</strong> deletes your sign-in and all fetched data from your Mac. To revoke TeamPulse's access on GitHub too, open GitHub › Settings › Applications.</p>
+</main>
+<footer>
+  <div class="wrap">
+    <span>© 2026 Dmitry Skorinko</span>
+    <span><a href="support.html">Support</a> · <a href="privacy.html">Privacy</a></span>
+  </div>
+</footer>
+</body>
+</html>
